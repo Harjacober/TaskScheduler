@@ -218,8 +218,8 @@ public class MainActivity extends AppCompatActivity
         public Fragment getItem(int position) {
             switch(position){
                 case 0: return TaskListView.newInstance(null, null);
-                case 1: return TaskCalendarView.newInstance(null, null);
-                case 2: return TaskMoreItemView.newInstance(null, null);
+                case 1: return TaskCalendarView.newInstance();
+                case 2: return TaskMoreItemView.newInstance();
                 default: return null;
             }
         }
