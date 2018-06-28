@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    android:layout_gravity="center">
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="interval in hours"
+                android:inputType="number"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hours"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/oneDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 day"/>
+        <RadioButton
+            android:id="@+id/threeDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 days"/>
+        <RadioButton
+            android:id="@+id/oneWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 week"/>
+        <RadioButton
+            android:id="@+id/twoWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 weeks"/>
+        <RadioButton
+            android:id="@+id/threeWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 weeks"/>
+        <RadioButton
+            android:id="@+id/fourWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 weeks"/>
+    </RadioGroup>
+</LinearLayout>

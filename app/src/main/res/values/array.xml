@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="categories">
+        <item>Uncategorized</item>
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Family affair</item>
+        <item>Study</item>
+    </array>
+    <array name="type">
+        <item>All</item>
+        <item>Schedules</item>
+        <item>Records</item>
+        <item>TimeTable</item>
+    </array>
+</resources>
